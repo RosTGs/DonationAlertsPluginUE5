@@ -315,7 +315,7 @@ TSharedRef<IHttpRequest, ESPMode::ThreadSafe> UDonationAlertsSubsystem::CreateHt
 
 	HttpRequest->SetURL(Url);
 
-	HttpRequest->SetHeader(TEXT("X-ENGINE"), TEXT("UE4"));
+	HttpRequest->SetHeader(TEXT("X-ENGINE"), TEXT("UE5.4"));
 	HttpRequest->SetHeader(TEXT("X-ENGINE-V"), ENGINE_VERSION_STRING);
 	HttpRequest->SetHeader(TEXT("X-SDK-V"), DONATIONALERTS_VERSION);
 
