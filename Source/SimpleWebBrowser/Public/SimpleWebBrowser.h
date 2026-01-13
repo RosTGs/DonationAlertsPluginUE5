@@ -9,9 +9,11 @@
 UCLASS()
 class SIMPLEWEBBROWSER_API USimpleWebBrowser : public UWidget
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 
 public:
+	USimpleWebBrowser(const FObjectInitializer& ObjectInitializer);
+
 	DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnUrlChanged, const FText&, Text);
 	DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnBeforePopup, FString, URL, FString, Frame);
 
