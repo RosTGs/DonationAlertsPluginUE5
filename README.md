@@ -8,8 +8,6 @@ Minimum supported version: UE5.4. The plugin is intended for UE5.4 projects and 
 
 This plugin allows stream viewers to make changes to the gameplay on the go: switch weapons, alter character behavior or environmental factors. It’s up to the developer to choose the elements that can be made interactive. DonationAlerts will be providing developers with all the necessary information: donation value, message text, sender name, currency, date and time of donation. With this data at hand, the game could choose one of the scenarios to run.
 
-Documentation: https://www.donationalerts.com/apidoc#plugins_and_libraries
-
 ## Инструкция по использованию (RU)
 
 1. Установите плагин:
