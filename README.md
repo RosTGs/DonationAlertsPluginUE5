@@ -33,6 +33,33 @@ Documentation: https://www.donationalerts.com/apidoc#plugins_and_libraries
    - Убедитесь, что событие корректно обрабатывается в игре.
 
 
+## Plugins & Libraries
+Позволяет легко авторизовать игрока и отправлять custom alerts. Плагин доступен на GitHub:
+
+Пожалуйста, зарегистрируйте ваше OAuth приложение и настройте плагин:
+https://www.donationalerts.com/application/clients
+
+* How to authenicate user:
+  <img width="1257" height="686" alt="ue4_set_up_plugin" src="https://github.com/user-attachments/assets/232a344a-8213-4aff-95cf-ad3363beabee" />
+  <img width="1578" height="746" alt="ue4_user_auth" src="https://github.com/user-attachments/assets/5a77cbe2-3e71-402c-994f-2687479df1cb" />
+* How to send custom alert:
+
+<img width="1163" height="481" alt="ue4_send_custom_alert" src="https://github.com/user-attachments/assets/22c79b0e-9feb-416e-b860-d129c28ae184" />
+* How to react to donation events:
+
+<img width="867" height="554" alt="ue4_receive_donation" src="https://github.com/user-attachments/assets/3655e15e-c75b-4e59-8ec4-4a528c8c5878" />
+
+* How to react to donation goal events:
+<img width="814" height="551" alt="ue4_receive_donation_goal_update" src="https://github.com/user-attachments/assets/9a3b365f-08ca-49b2-88c1-20c41c81dfc4" />
+
+* How to react to poll events:
+<img width="1491" height="561" alt="ue4_receive_poll_update" src="https://github.com/user-attachments/assets/68df4e04-7b60-474c-97d6-c8313cb8749a" />
+
+---
+
+
+
+
 ## DonationAlerts Public API (RU)
 
 Публичный API DonationAlerts организован по принципам REST. Наш API использует предсказуемые URL’ы с ориентацией на ресурсы, возвращает ответы в JSON, и применяет стандартные HTTP коды ответов, аутентификацию и HTTP-методы.
@@ -671,21 +698,5 @@ DonationAlerts API предлагает различные Centrifugo канал
 | amount_percent | Процент варианта относительно других                                                                                           |
 | is_winner      | Флаг победителя. Опрос может иметь несколько победителей, если максимальный amount_value разделён между несколькими вариантами |
 
-## Plugins & Libraries
 
-Для вашего удобства мы создали различные плагины и библиотеки, которые помогут быстро начать работу с разными частями DonationAlerts API в различных средах разработки.
 
-Позволяет легко авторизовать игрока и отправлять custom alerts. Плагин доступен на GitHub:
-[https://github.com/ufna/DonationAlerts](https://github.com/ufna/DonationAlerts)
-
-Пожалуйста, зарегистрируйте ваше OAuth приложение и настройте плагин:
-
-* How to authenicate user:
-* How to send custom alert:
-* How to react to donation events:
-* How to react to donation goal events:
-* How to react to poll events:
-
----
-
-logo
